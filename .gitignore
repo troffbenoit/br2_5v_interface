@@ -1,0 +1,12 @@
+*-backups/
+*.kicad_prl
+fp-info-cache
+ERC*.rpt
+DRC*.rpt
+*.lck
+*.tmp
+*.bak
+*.swp
+*.swo
+*.autosave
+*.kicad_pcb.zip

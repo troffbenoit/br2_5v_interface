@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BR2_Custom")(type "KiCad")(uri "${KIPRJMOD}/BR2_Custom.pretty")(options "")(descr ""))
+)

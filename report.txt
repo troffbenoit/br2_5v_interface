@@ -1,0 +1,8 @@
+Info: Updated footprint J11 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J12 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J13 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J14 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J7 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J8 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J9 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
+Info: Updated footprint J10 (BR2_Custom:Header_1x14_P2.54_Horizontal): : (no changes)
