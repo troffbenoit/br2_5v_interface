@@ -491,7 +491,7 @@
       "netlist": "",
       "plot": "",
       "pos_files": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "br2_5v_interface_U_starter.dsn",
       "step": "br2_5v_interface_U_starter.step",
       "svg": "",
       "vrml": ""
