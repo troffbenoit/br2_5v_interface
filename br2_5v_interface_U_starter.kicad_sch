@@ -135,6 +135,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "+5V_2"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_2_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_2_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "74xx:74HC245"
 			(pin_names
 				(offset 1.016)
@@ -2832,10 +2957,6 @@
 		(uuid "51354549-5fa4-44ef-8270-3492530afa57")
 	)
 	(no_connect
-		(at 50.8 140.97)
-		(uuid "531e8dfc-20b0-4090-bd9f-86e5d8fc2c9f")
-	)
-	(no_connect
 		(at 30.48 50.8)
 		(uuid "55be6669-3324-419f-a6be-46ce928bbfc1")
 	)
@@ -2866,6 +2987,10 @@
 	(no_connect
 		(at 110.49 38.1)
 		(uuid "64f7d954-2dc5-4e05-8c0b-f9d68383a1aa")
+	)
+	(no_connect
+		(at 30.48 140.97)
+		(uuid "65c3035f-7725-454d-b061-9889c96fa682")
 	)
 	(no_connect
 		(at 30.48 114.3)
@@ -3028,6 +3153,10 @@
 		(uuid "b1850248-7ad1-4f24-ac5f-938f6f0a4d2c")
 	)
 	(no_connect
+		(at 50.8 140.97)
+		(uuid "b2aa3204-6187-42ee-b2c4-9e3f475498c4")
+	)
+	(no_connect
 		(at 82.55 25.4)
 		(uuid "b3a462b9-c869-4209-bc9a-b58208c9febb")
 	)
@@ -3140,10 +3269,6 @@
 		(uuid "e5b10caf-1a08-49c9-825d-262a6f2797a0")
 	)
 	(no_connect
-		(at 30.48 140.97)
-		(uuid "e64d71f6-3125-4e95-b49f-1c52ddeef271")
-	)
-	(no_connect
 		(at 110.49 85.09)
 		(uuid "e9568f87-8722-42fc-a8ff-06744816f598")
 	)
@@ -3170,10 +3295,6 @@
 	(no_connect
 		(at 82.55 67.31)
 		(uuid "f0d8f9a1-cdd6-4456-99d1-fbc723755d69")
-	)
-	(no_connect
-		(at 30.48 138.43)
-		(uuid "f129f49c-25f3-4637-a02f-3ca81bfc20a0")
 	)
 	(no_connect
 		(at 82.55 55.88)
@@ -3456,6 +3577,16 @@
 			(type default)
 		)
 		(uuid "d5d5c552-2a93-4d4e-a333-e5ba38d97276")
+	)
+	(wire
+		(pts
+			(xy 30.48 138.43) (xy 33.02 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daf9cd15-3da2-477b-aa93-62757d3b4400")
 	)
 	(wire
 		(pts
@@ -4652,6 +4783,74 @@
 		)
 	)
 	(symbol
+		(lib_name "+5V_2")
+		(lib_id "power:+5V")
+		(at 33.02 138.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f45e43d-01c0-465e-86bd-2b546ae7daee")
+		(property "Reference" "#PWR07"
+			(at 29.21 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 36.83 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 33.02 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9da6e01f-a8f1-4662-8ce4-fe48f84fa73f")
+		)
+		(instances
+			(project ""
+				(path "/0e211f18-c279-46d1-80af-e05e6025d205"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x14_Pin")
 		(at 77.47 38.1 0)
 		(unit 1)
@@ -5045,12 +5244,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 62.23 132.08 0)
+		(property "Value" "+3.3vdc"
+			(at 64.77 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
